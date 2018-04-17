@@ -6,7 +6,7 @@ class Connexion extends React.Component {
     goToApp = event => {
         event.preventDefault();
         const pseudo = this.boxInput.value;
-        this.props.history.push(`/box/${pseudo}`);
+        this.props.history.push(`/Recipe-box/box/${pseudo}`);
     };
 
     render() {

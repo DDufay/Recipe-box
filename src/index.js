@@ -9,8 +9,8 @@ import Connexion from "./components/Connexion"
 ReactDOM.render((
     <Router>
         <div>
-            <Route exact path="/" component={Connexion}/>
-            <Route path="/box/:pseudo" component={App}/>
+            <Route exact path="/Recipe-box/" component={Connexion}/>
+            <Route path="/Recipe-box/box/:pseudo" component={App}/>
         </div>
     </Router>
 ), document.getElementById('root'));
